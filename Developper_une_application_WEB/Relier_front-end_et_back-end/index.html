@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calcul de l'IMC</title>
+  </head>
+  <body>
+    <form action="calcul-imc.php" method="post">
+      <label for="poids">Poids (kg) :</label>
+      <input type="text" name="poids" id="poids">
+      <br>
+      <label for="taille">Taille (m) :</label>
+      <input type="text" name="taille" id="taille">
+      <br>
+      <label for="sexe">Sexe :</label>
+      <select name="sexe" id="sexe">
+        <option value="femme">Femme</option>
+        <option value="homme">Homme</option>
+      </select>
+      <br>
+      <input type="submit" value="Calculer l'IMC">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Ajouter un utilisateur</title>
+    </head>
+    
+    <body>
+         <h1>Ajouter un utilisateur</h1>
+
+        <form method="post" action="ajouter_utilisateur.php">
+            <label for="login">Login :</label>
+            <input type="text" id="login" name="login" required>
+            <br>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password"
+            required>
+            <br>
+            <label for="superuser">Super utilisateur :</label>
+            <input type="checkbox" id="superuser" name="superuser"
+            value="true">
+            <br>
+            <input type="submit" value="Ajouter">
+        </form>
+    </body>
+
+</html>
